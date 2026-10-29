@@ -2,40 +2,65 @@
 
 ### Landing Page Demonstrativa | AW TECHNOLOGY
 
-A **VOXIA** é uma landing page conceitual desenvolvida para uma escola fictícia de oratória e comunicação. O projeto apresenta uma experiência digital moderna e elegante, com foco na apresentação de cursos, valorização da marca e incentivo ao contato com potenciais alunos.
+A **VOXIA** é uma landing page conceitual desenvolvida para uma escola fictícia de oratória e comunicação. O projeto demonstra como uma apresentação digital moderna pode valorizar uma marca, apresentar seus cursos e incentivar o contato com potenciais alunos.
 
-Desenvolvida como projeto de demonstração da **AW TECHNOLOGY**, a página reúne identidade visual sofisticada, navegação intuitiva e layout responsivo.
+Desenvolvida pela **AW TECHNOLOGY**, a página combina identidade visual sofisticada, navegação intuitiva e layout responsivo.
 
-## ✨ Sobre o Projeto
+## 🌐 Demonstração
 
-A proposta da VOXIA é demonstrar como uma landing page pode apresentar uma marca de educação e desenvolvimento pessoal de maneira profissional, destacando seus serviços e conduzindo os visitantes pelas principais informações da empresa.
+**Projeto:** Landing page conceitual para uma escola de oratória e comunicação.
 
-O design combina tons escuros, detalhes dourados, tipografia elegante e elementos visuais que reforçam a proposta de confiança, presença e comunicação.
+**Status:** Demonstração publicada para apresentação de portfólio.
 
-## 🚀 Funcionalidades
+## 🖥️ Capturas de Tela
 
-- **Landing page responsiva:** adaptação para computadores, tablets e smartphones.
-- **Identidade visual conceitual:** apresentação da marca VOXIA e de sua proposta.
-- **Seção institucional:** introdução à escola e aos seus objetivos.
-- **Apresentação de cursos:** cards com descrições das áreas de desenvolvimento.
-- **Diferenciais:** destaque para os benefícios do aprendizado de oratória.
-- **Navegação por seções:** acesso rápido às principais áreas da página.
-- **Chamada para contato:** seção dedicada à conversão de visitantes.
-- **Interface moderna:** composição visual com tipografia expressiva, cores contrastantes e detalhes refinados.
+### Página Inicial
+
+Apresentação da marca VOXIA, com destaque para a proposta de comunicação, identidade visual e chamada principal.
+
+![Página inicial da VOXIA](docs/screenshots/voxia-home.png)
+
+### Cursos
+
+Seção dedicada à apresentação das áreas de desenvolvimento em oratória, comunicação profissional e apresentações em público.
+
+![Seção de cursos da VOXIA](docs/screenshots/voxia-cursos.png)
+
+### Contato e Rodapé
+
+Área final da landing page, com chamada para contato e identificação do projeto demonstrativo.
+
+![Seção de contato da VOXIA](docs/screenshots/voxia-contato.png)
+
+## ✨ Funcionalidades
+
+- Landing page responsiva para computadores, tablets e smartphones.
+- Identidade visual conceitual para a marca VOXIA.
+- Seção institucional sobre a proposta da escola.
+- Apresentação de cursos por meio de cards.
+- Seção de diferenciais e benefícios.
+- Navegação por âncoras entre as seções.
+- Chamada para contato.
+- Interface personalizada com cores, tipografia e elementos visuais sofisticados.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Next.js** — framework React para desenvolvimento web.
-- **React** — construção da interface.
-- **TypeScript** — tipagem estática e maior organização do código.
-- **Tailwind CSS 4** — infraestrutura de estilos e recursos de estilização.
-- **CSS** — personalização visual, animações e responsividade.
-- **Git e GitHub** — controle de versão e gerenciamento do código-fonte.
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS 4**
+- **CSS**
+- **Git e GitHub**
 
 ## 📁 Estrutura do Projeto
 
 ```text
 voxia-oratoria/
+├── docs/
+│   └── screenshots/
+│       ├── voxia-home.png
+│       ├── voxia-cursos.png
+│       └── voxia-contato.png
 ├── public/
 ├── src/
 │   └── app/
@@ -64,7 +89,7 @@ voxia-oratoria/
 git clone https://github.com/awaldige/voxia-oratoria.git
 ```
 
-### 2. Entre na pasta do projeto
+### 2. Acesse a pasta
 
 ```bash
 cd voxia-oratoria
@@ -82,17 +107,9 @@ npm install
 npm run dev
 ```
 
-### 5. Acesse a aplicação
+Acesse `http://localhost:3000` no navegador.
 
-Abra o navegador e acesse:
-
-```text
-http://localhost:3000
-```
-
-### 6. Verifique a compilação para produção
-
-Para verificar se o projeto pode ser compilado para produção, execute:
+### 5. Verifique a compilação de produção
 
 ```bash
 npm run build
@@ -100,19 +117,15 @@ npm run build
 
 ## 📱 Responsividade
 
-A interface foi desenvolvida para oferecer uma experiência consistente em diferentes tamanhos de tela, incluindo:
-
-- Computadores e notebooks.
-- Tablets.
-- Smartphones.
+A interface foi desenvolvida para proporcionar uma experiência consistente em diferentes tamanhos de tela, incluindo computadores, tablets e smartphones.
 
 ## ⚠️ Sobre a Demonstração
 
-A VOXIA é uma **marca fictícia criada exclusivamente para fins demonstrativos e de portfólio**.
+A **VOXIA é uma marca fictícia**, criada exclusivamente para fins demonstrativos e de portfólio.
 
-Os cursos, textos institucionais e demais conteúdos apresentados são conceituais. O projeto não representa uma instituição real de ensino.
+Os cursos, textos institucionais e demais conteúdos são conceituais. O projeto não representa uma instituição real de ensino.
 
-O botão de contato utiliza uma mensagem demonstrativa. A integração com WhatsApp e os demais canais de atendimento deverá ser configurada com os dados oficiais da empresa em uma eventual versão comercial.
+O botão de contato apresenta uma mensagem demonstrativa. A integração com WhatsApp e os canais de atendimento deverão ser configurados com os dados oficiais de uma eventual empresa contratante.
 
 ## 👨‍💻 Desenvolvido por AW TECHNOLOGY
 
